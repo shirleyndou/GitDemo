@@ -7,5 +7,7 @@ public class Main {
         }else{
             System.out.println("Eat a banana");
         }
+        System.out.println("Drink water");
+
     }
 }
