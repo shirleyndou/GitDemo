@@ -1,11 +1,12 @@
 public class Main {
     public static void main(String[] args) {
-        String tummy = "";
+        int number =5;
+        long fact = 1;
 
-        if(tummy.isEmpty()){
-            System.out.println("Eat an apple");
-        }else{
-            System.out.println("Eat a banana");
+        for(int i=1; i<= number; i++){
+            fact = fact * i;
         }
+        System.out.println("fact of " + number + " is "+ fact);
+
     }
 }
